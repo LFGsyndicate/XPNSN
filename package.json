@@ -1,0 +1,39 @@
+{
+  "name": "expansion-podcast-episode-11-pdf",
+  "version": "1.0.0",
+  "description": "PDF generation for Expansion Podcast Episode 11 infographic",
+  "main": "generate-pdf.js",
+  "scripts": {
+    "generate-pdf": "node generate-pdf.js",
+    "generate-pdf-ru": "node -e \"const { generatePDF } = require('./generate-pdf.js'); generatePDF('./pdf-ru.html', './pdfs/episode-11-ru.pdf')\"",
+    "generate-pdf-en": "node -e \"const { generatePDF } = require('./generate-pdf.js'); generatePDF('./pdf-en.html', './pdfs/episode-11-en.pdf')\"",
+    "generate-high-quality": "node generate-high-quality-pdf.js",
+    "generate-high-quality-ru": "node -e \"const { generateHighQualityPDF } = require('./generate-high-quality-pdf.js'); generateHighQualityPDF('./pdf-ru-high-quality.html', './pdfs-high-quality/episode-11-ru-high-quality.pdf')\"",
+    "generate-high-quality-en": "node -e \"const { generateHighQualityPDF } = require('./generate-high-quality-pdf.js'); generateHighQualityPDF('./pdf-en-high-quality.html', './pdfs-high-quality/episode-11-en-high-quality.pdf')\"",
+    "install-deps": "npm install",
+    "setup": "npm install && mkdir -p pdfs pdfs-high-quality"
+  },
+  "keywords": [
+    "pdf",
+    "infographic",
+    "podcast",
+    "expansion",
+    "puppeteer"
+  ],
+  "author": "LFGsyndicate",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.11.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LFGsyndicate/expansion-podcast-infographics"
+  },
+  "bugs": {
+    "url": "https://github.com/LFGsyndicate/expansion-podcast-infographics/issues"
+  },
+  "homepage": "https://github.com/LFGsyndicate/expansion-podcast-infographics#readme"
+}

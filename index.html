@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Urban Traffic to Smart Warehouse | Episode 11 Infographic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="language-switcher">
+        <button class="lang-btn" data-lang="ru">
+            <i class="fas fa-flag"></i> RU
+        </button>
+        <button class="lang-btn active" data-lang="en">
+            <i class="fas fa-flag"></i> EN
+        </button>
+    </div>
+
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero-title" data-ru="От городского трафика к умному складу" data-en="From Urban Traffic to Smart Warehouse">
+                From Urban Traffic to Smart Warehouse
+            </h1>
+            <p class="hero-subtitle" data-ru="Как принципы децентрализованного AI (кейс SURTRAC) открывают новую эру в логистике и управлении" data-en="How decentralized AI principles (SURTRAC case study) are unlocking a new era in logistics and management">
+                How decentralized AI principles (SURTRAC case study) are unlocking a new era in logistics and management
+            </p>
+            <div class="episode-badge">
+                <i class="fas fa-podcast"></i>
+                <span data-ru="Выпуск #11" data-en="Episode #11">Episode #11</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- Block 1: Original Case Study -->
+            <section class="infographic-block block-1">
+                <div class="block-header">
+                    <div class="block-number">01</div>
+                    <h2 class="block-title" data-ru="Оригинальный кейс — SURTRAC" data-en="Original Case Study — SURTRAC">
+                        Оригинальный кейс — SURTRAC
+                    </h2>
+                    <p class="block-subtitle" data-ru="Управление городским трафиком в Питтсбурге" data-en="Pittsburgh Urban Traffic Management">
+                        Управление городским трафиком в Питтсбурге
+                    </p>
+                </div>
+                
+                <div class="block-content">
+                    <div class="visualization">
+                        <div class="city-map">
+                            <div class="intersection intersection-1">
+                                <div class="traffic-light"></div>
+                                <div class="agent-indicator">AI</div>
+                            </div>
+                            <div class="intersection intersection-2">
+                                <div class="traffic-light"></div>
+                                <div class="agent-indicator">AI</div>
+                            </div>
+                            <div class="intersection intersection-3">
+                                <div class="traffic-light"></div>
+                                <div class="agent-indicator">AI</div>
+                            </div>
+                            <div class="intersection intersection-4 active">
+                                <div class="traffic-light active"></div>
+                                <div class="agent-indicator active">AI</div>
+                            </div>
+                            <div class="road road-horizontal"></div>
+                            <div class="road road-vertical"></div>
+                            <div class="cars">
+                                <div class="car car-1"></div>
+                                <div class="car car-2"></div>
+                                <div class="car car-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="content-details">
+                        <div class="detail-item">
+                            <h3 data-ru="Компонент системы" data-en="System Component">Компонент системы</h3>
+                            <p data-ru="Перекресток" data-en="An Intersection">Перекресток</p>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <h3 data-ru="Локальный AI-Агент" data-en="Local AI Agent">Локальный AI-Агент</h3>
+                            <p data-ru="Агент Светофора" data-en="Traffic Signal Agent">Агент Светофора</p>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <h3 data-ru="Задача агента" data-en="Agent's Goal">Задача агента</h3>
+                            <p data-ru="Минимизировать время ожидания транспорта на своем перекрестке" data-en="Minimize vehicle wait time at its own intersection">
+                                Минимизировать время ожидания транспорта на своем перекрестке
+                            </p>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <h3 data-ru="Входные данные" data-en="Inputs">Входные данные</h3>
+                            <ul>
+                                <li data-ru="Видеопоток с камер в реальном времени" data-en="Real-time video feeds from cameras">
+                                    Видеопоток с камер в реальном времени
+                                </li>
+                                <li data-ru="Количество и скорость приближающихся автомобилей" data-en="Count and speed of approaching vehicles">
+                                    Количество и скорость приближающихся автомобилей
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <h3 data-ru="Координация" data-en="Coordination">Координация</h3>
+                            <div class="coordination-demo">
+                                <div class="message message-send">
+                                    <i class="fas fa-arrow-right"></i>
+                                    <span data-ru="«Готовься, через 20 секунд я направлю к тебе плотный поток с севера»" data-en="'Get ready, in 20 seconds I'm sending heavy flow from the north'">
+                                        «Готовься, через 20 секунд я направлю к тебе плотный поток с севера»
+                                    </span>
+                                </div>
+                                <div class="message message-receive">
+                                    <i class="fas fa-arrow-left"></i>
+                                    <span data-ru="Учитывает планы соседей при составлении своего расписания" data-en="Considers neighbors' plans when creating its own schedule">
+                                        Учитывает планы соседей при составлении своего расписания
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="results">
+                            <h3 data-ru="Результат в Питтсбурге" data-en="The Pittsburgh Result">Результат в Питтсбурге</h3>
+                            <div class="result-metrics">
+                                <div class="metric">
+                                    <div class="metric-value">-40%</div>
+                                    <div class="metric-label" data-ru="времени ожидания" data-en="wait times">времени ожидания</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value">-25%</div>
+                                    <div class="metric-label" data-ru="общего времени в пути" data-en="travel time">общего времени в пути</div>
+                                </div>
+                                <div class="metric">
+                                    <div class="metric-value">-20%</div>
+                                    <div class="metric-label" data-ru="вредных выбросов" data-en="emissions">вредных выбросов</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Block 2: Adapted Model -->
+            <section class="infographic-block block-2">
+                <div class="block-header">
+                    <div class="block-number">02</div>
+                    <h2 class="block-title" data-ru="Адаптация модели — Умный склад" data-en="Adapted Model — Smart Warehouse">
+                        Адаптация модели — Умный склад
+                    </h2>
+                    <p class="block-subtitle" data-ru="Управление логистикой" data-en="Logistics Management">
+                        Управление логистикой
+                    </p>
+                </div>
+                
+                <div class="block-content">
+                    <div class="visualization">
+                        <div class="warehouse-layout">
+                            <div class="zone zone-receiving">
+                                <div class="zone-label" data-ru="Приемка" data-en="Receiving">Приемка</div>
+                                <div class="agent-indicator">AI</div>
+                                <div class="forklift"></div>
+                            </div>
+                            <div class="zone zone-storage">
+                                <div class="zone-label" data-ru="Хранение" data-en="Storage">Хранение</div>
+                                <div class="agent-indicator">AI</div>
+                                <div class="shelves"></div>
+                            </div>
+                            <div class="zone zone-packing active">
+                                <div class="zone-label" data-ru="Упаковка" data-en="Packing">Упаковка</div>
+                                <div class="agent-indicator active">AI</div>
+                                <div class="order-box"></div>
+                            </div>
+                            <div class="zone zone-shipping">
+                                <div class="zone-label" data-ru="Отгрузка" data-en="Shipping">Отгрузка</div>
+                                <div class="agent-indicator">AI</div>
+                                <div class="truck"></div>
+                            </div>
+                            <div class="conveyor-belt"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="content-details">
+                        <div class="detail-item">
+                            <h3 data-ru="Компонент системы" data-en="System Component">Компонент системы</h3>
+                            <p data-ru="Зона склада" data-en="Warehouse Zone">Зона склада</p>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <h3 data-ru="Локальный AI-Агент" data-en="Local AI Agent">Локальный AI-Агент</h3>
+                            <p data-ru="Агент Зоны" data-en="Zone Agent">Агент Зоны</p>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <h3 data-ru="Задача агента" data-en="Agent's Goal">Задача агента</h3>
+                            <p data-ru="Минимизировать время простоя заказов и ресурсов" data-en="Minimize order and resource idle time">
+                                Минимизировать время простоя заказов и ресурсов
+                            </p>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <h3 data-ru="Автономное действие" data-en="Autonomous Action">Автономное действие</h3>
+                            <div class="action-demo">
+                                <div class="action-message">
+                                    <i class="fas fa-robot"></i>
+                                    <span data-ru="«Погрузчик №3, возьми паллету с заказом #125 и доставь в зону упаковки»" data-en="'Forklift #3, pick up pallet for order #125 and take it to packing zone'">
+                                        «Погрузчик №3, возьми паллету с заказом #125 и доставь в зону упаковки»
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <h3 data-ru="Координация" data-en="Coordination">Координация</h3>
+                            <div class="coordination-demo">
+                                <div class="message message-send">
+                                    <i class="fas fa-arrow-right"></i>
+                                    <span data-ru="«Агент зоны упаковки, готовься принять товар для заказа #125 через 3 минуты»" data-en="'Packing Zone Agent, prepare to receive goods for order #125 in 3 minutes'">
+                                        «Агент зоны упаковки, готовься принять товар для заказа #125 через 3 минуты»
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Block 3: Universal Principle -->
+            <section class="infographic-block block-3">
+                <div class="block-header">
+                    <div class="block-number">03</div>
+                    <h2 class="block-title" data-ru="Универсальный принцип — Децентрализованная оптимизация" data-en="Universal Principle — Decentralized Optimization">
+                        Универсальный принцип — Децентрализованная оптимизация
+                    </h2>
+                </div>
+                
+                <div class="block-content">
+                    <div class="visualization">
+                        <div class="network-comparison">
+                            <div class="old-model">
+                                <h3 data-ru="Старая модель" data-en="Old Model">Старая модель</h3>
+                                <div class="network-diagram centralized">
+                                    <div class="central-node">
+                                        <i class="fas fa-times"></i>
+                                        <span data-ru="Центр" data-en="Center">Центр</span>
+                                    </div>
+                                    <div class="peripheral-nodes">
+                                        <div class="node"></div>
+                                        <div class="node"></div>
+                                        <div class="node"></div>
+                                        <div class="node"></div>
+                                    </div>
+                                </div>
+                                <ul class="model-problems">
+                                    <li data-ru="Один «центральный мозг» управляет всем" data-en="One 'central brain' manages everything">
+                                        Один «центральный мозг» управляет всем
+                                    </li>
+                                    <li data-ru="Решения с задержкой на основе устаревших данных" data-en="Delayed decisions based on outdated data">
+                                        Решения с задержкой на основе устаревших данных
+                                    </li>
+                                    <li data-ru="Система хрупкая: сбой в центре парализует все" data-en="Fragile system: center failure paralyzes everything">
+                                        Система хрупкая: сбой в центре парализует все
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="new-model">
+                                <h3 data-ru="Новая модель" data-en="New Model">Новая модель</h3>
+                                <div class="network-diagram decentralized">
+                                    <div class="agent-nodes">
+                                        <div class="agent-node active">
+                                            <i class="fas fa-brain"></i>
+                                            <span data-ru="Агент 1" data-en="Agent 1">Агент 1</span>
+                                        </div>
+                                        <div class="agent-node">
+                                            <i class="fas fa-brain"></i>
+                                            <span data-ru="Агент 2" data-en="Agent 2">Агент 2</span>
+                                        </div>
+                                        <div class="agent-node">
+                                            <i class="fas fa-brain"></i>
+                                            <span data-ru="Агент 3" data-en="Agent 3">Агент 3</span>
+                                        </div>
+                                        <div class="agent-node">
+                                            <i class="fas fa-brain"></i>
+                                            <span data-ru="Агент 4" data-en="Agent 4">Агент 4</span>
+                                        </div>
+                                    </div>
+                                    <div class="connection-lines"></div>
+                                </div>
+                                <ul class="model-benefits">
+                                    <li data-ru="Рой независимых агентов" data-en="Swarm of independent agents">
+                                        Рой независимых агентов
+                                    </li>
+                                    <li data-ru="Локальная экспертиза каждого агента" data-en="Local expertise of each agent">
+                                        Локальная экспертиза каждого агента
+                                    </li>
+                                    <li data-ru="Глобальная эффективность через координацию" data-en="Global efficiency through coordination">
+                                        Глобальная эффективность через координацию
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="business-results">
+                        <h3 data-ru="Результат для бизнеса" data-en="Business Results">Результат для бизнеса</h3>
+                        <div class="results-grid">
+                            <div class="result-card">
+                                <div class="result-icon">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <h4 data-ru="Скорость" data-en="Speed">Скорость</h4>
+                                <p data-ru="Мгновенная реакция на изменения" data-en="Instant reaction to changes">
+                                    Мгновенная реакция на изменения
+                                </p>
+                            </div>
+                            <div class="result-card">
+                                <div class="result-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <h4 data-ru="Эффективность" data-en="Efficiency">Эффективность</h4>
+                                <p data-ru="Оптимальное использование ресурсов" data-en="Optimal resource utilization">
+                                    Оптимальное использование ресурсов
+                                </p>
+                            </div>
+                            <div class="result-card">
+                                <div class="result-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <h4 data-ru="Устойчивость" data-en="Resilience">Устойчивость</h4>
+                                <p data-ru="Сбой одного агента не останавливает систему" data-en="One agent failure doesn't stop the system">
+                                    Сбой одного агента не останавливает систему
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="podcast-info">
+                    <h3 data-ru="О подкасте «Экспансия»" data-en="About 'Expansion' Podcast">О подкасте «Экспансия»</h3>
+                    <p data-ru="Ваш прагматичный навигатор в мире неизбежной технологической эволюции: ИИ, децентрализации и блокчейна. Мы переводим язык кода на язык здравого смысла." data-en="Your pragmatic navigator in the world of inevitable technological evolution: AI, decentralization, and blockchain. We translate the language of code into the language of common sense.">
+                        Ваш прагматичный навигатор в мире неизбежной технологической эволюции: ИИ, децентрализации и блокчейна. Мы переводим язык кода на язык здравого смысла.
+                    </p>
+                </div>
+                
+                <div class="support-section">
+                    <h4 data-ru="Поддержите проект" data-en="Support the Project">Поддержите проект</h4>
+                    <p data-ru="Ваша подписка, лайк и комментарий — лучшая поддержка нашего проекта" data-en="Your subscription, like, and comment are the best way to support our project">
+                        Ваша подписка, лайк и комментарий — лучшая поддержка нашего проекта
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.youtube.com/@expansiya" target="_blank" class="social-link youtube" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                            <span data-ru="YouTube" data-en="YouTube">YouTube</span>
+                        </a>
+                        <a href="https://t.me/expansiia" target="_blank" class="social-link telegram" aria-label="Telegram">
+                            <i class="fab fa-telegram"></i>
+                            <span data-ru="Telegram" data-en="Telegram">Telegram</span>
+                        </a>
+                        <a href="https://expansion.mave.digital" target="_blank" class="social-link podcast" aria-label="Podcast platforms">
+                            <i class="fas fa-podcast"></i>
+                            <span data-ru="Все платформы" data-en="All Platforms">Все платформы</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="business-section">
+                    <h4 data-ru="Нужна команда для реализации сложных AI и Web3 проектов?" data-en="Need a team to build complex AI & Web3 solutions?">Нужна команда для реализации сложных AI и Web3 проектов?</h4>
+                    <p data-ru="Мы в aiix.pro не только говорим, но и делаем" data-en="At aiix.pro, we don't just talk about the future—we build it">
+                        Мы в aiix.pro не только говорим, но и делаем
+                    </p>
+                    <div class="business-links">
+                        <a href="https://aiix.pro" target="_blank" class="business-link" aria-label="aiix.pro">
+                            <i class="fas fa-globe"></i>
+                            <span data-ru="Наш сайт" data-en="Our Website">Наш сайт</span>
+                        </a>
+                        <a href="https://linktr.ee/ruhunt" target="_blank" class="business-link" aria-label="All links">
+                            <i class="fas fa-link"></i>
+                            <span data-ru="Все ссылки" data-en="All Links">Все ссылки</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-ru="Инфографика создана для Выпуска #11 подкаста «Экспансия»" data-en="Infographic created for Episode #11 of 'Expansion' Podcast">
+                    Инфографика создана для Выпуска #11 подкаста «Экспансия»
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+$env:PUPPETEER_SKIP_DOWNLOAD="true"
+npm install puppeteer
